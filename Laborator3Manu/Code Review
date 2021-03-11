@@ -11,3 +11,22 @@ Code review
 - elimina valorile predefinite (hardcodate) din functie
 
 - datele de intrare nu sunt validate
+
+
+2. Sungle Responsability si KISS pentru functii
+- metoda calculeaza prea multe valori intermediare
+- se repeta o parte din prelucrari
+
+
+
+
+
+
+
+
+
+
+Cate face functia mea initiala:
+- face validari
+- calculeaza discount in functie de fidelitate
+- calculeaza discountul in functie de tipul produsului si de discountul de fidelitate => pretul final
