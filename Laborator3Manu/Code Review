@@ -18,13 +18,17 @@ Code review
 - se repeta o parte din prelucrari
 
 
+3. SOLID
+- eliminare switch prin tratarea primului caz in mod generic
+- eliminare dependente legate de validarea datelor si prelucrarea discountului
 
 
 
+CUM APLICAM DIP?
+pentru functii introducem interfete
+pentru atribute statice constante => interfete sau clase abstracte
 
-
-
-
+!!!! In validari evitam sa intoarcem true sau false
 
 Cate face functia mea initiala:
 - face validari
