@@ -6,8 +6,8 @@ public class TestFactory {
 
 	public static void main(String[] args) {
 		
-		//CaracterAbstract mickeyMouse = new CaracterDisney("Mickey Mouse", "rosu");
-		CaracterAbstract spiderMan = new CaracterMarvel("Spiderman", 100);
+		//CaracterAbstract mickeyMouse = new CaracterDisney("rosu", "Mickey Mouse");
+		//CaracterAbstract spiderMan = new CaracterMarvel("Spiderman", 100);
 		
 		CaracterAbstract mickeyMouse = FactoryCaractere.getCaracter(TipCaracter.DISNEY, "Mickey Mouse");
 
