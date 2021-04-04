@@ -7,7 +7,7 @@ public class FactoryCaractere {
 		
 		switch(tip) {
 		case DISNEY:
-			caracter = new CaracterDisney(nume, "alb", true);
+			caracter = new CaracterDisney("alb", nume);
 			break;
 		case MARVEL:
 			caracter = new CaracterMarvel(nume, 50);
