@@ -1,8 +1,0 @@
-Pentru Factory Method a ramas ultima cerinta de la seminarul trecut
-
-Designul la framework:
-                                   CaracterJoc
-                                   
-           CaracterFantasy                              Caracter normal
-          
-                                                  Disney                  Marvel
