@@ -1,4 +1,4 @@
-package ro.ase.csie.cts.g1088.dp.state;
+package ro.ase.csie.cts.g1088.dp.strategy;
 
 public class TestStrategy {
 
