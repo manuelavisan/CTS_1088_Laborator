@@ -12,6 +12,10 @@ public class TestPrototype {
 		Caracter3D caracter3 = (Caracter3D) caracter1.clone();
 		
 		System.out.println("Sfarsit");
+		
+		System.out.println(caracter1);
+		System.out.println(caracter2);
+		System.out.println(caracter3);
 	}
 
 }
