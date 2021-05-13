@@ -11,6 +11,7 @@ public class ModulFiltruRomana extends ModulProcesareMesaj{
 		for(String cuvant : dictionar) {
 			if(mesaj.text.toLowerCase().contains(cuvant)) {
 				esteValid = false;
+				System.out.println("Mesaj gasit cu un cuvant interzis");
 				break;
 			}
 		}
