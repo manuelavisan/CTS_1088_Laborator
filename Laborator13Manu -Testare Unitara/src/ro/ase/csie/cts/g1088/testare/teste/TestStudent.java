@@ -113,7 +113,7 @@ public class TestStudent {
 		student.setNote(note);
 		int notaMinima = 0;
 		int notaMinimaCalculata = student.getNotaMinima();
-		assertSame("Test fara note", notaMinima, notaMinimaCalculata);
+		assertEquals("Test fara note", notaMinima, notaMinimaCalculata);
 	}
 	
 	@Test
@@ -125,7 +125,7 @@ public class TestStudent {
 		
 		int notaMinima = student.MAX_NOTA;
 		int notaMinimaCalculata = student.getNotaMinima();
-		assertSame("Test cu o singura nota", notaMinima, notaMinimaCalculata);
+		assertEquals("Test cu o singura nota", notaMinima, notaMinimaCalculata);
 	}
 	
 	@Test
@@ -134,6 +134,6 @@ public class TestStudent {
 		student.setNote(null);
 		int notaMinima = 0;
 		int notaMinimaCalculata = student.getNotaMinima();
-		assertSame("Test cu referinta null pentru note", notaMinima, notaMinimaCalculata);
+		assertEquals("Test cu referinta null pentru note", notaMinima, notaMinimaCalculata);
 	}
 }
